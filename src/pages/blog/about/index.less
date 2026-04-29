@@ -1,0 +1,38 @@
+.blog-about {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 8px 16px 24px;
+
+	.about-cover {
+		display: flex;
+		gap: 16px;
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.avatar {
+		width: 120px;
+		height: 120px;
+		border-radius: 12px;
+		object-fit: cover;
+	}
+
+	.skill-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-top: 10px;
+	}
+
+	.social-list {
+		margin-top: 14px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+}
+
+.blog-about :global(.ant-card) {
+	border-radius: 16px;
+}
+
